@@ -3,7 +3,6 @@ import java.util.*;
 public class ShoppingGame {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the total no. of games:");
         int number = sc.nextInt();
         int[] arr = new int[2 * number];
         int i = 0;

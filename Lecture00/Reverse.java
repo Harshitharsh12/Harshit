@@ -16,6 +16,6 @@ public class Reverse {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        reverse(n);
+        System.out.println(reverse(n));
     }
 }

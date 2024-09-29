@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
 public class Boston {
-    public static void boston(int number) {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
         int temp = number;
         int i = 2;
+        int j;
         int m = 1;
         int sum1 = 0;
         int r;
@@ -12,13 +15,18 @@ public class Boston {
             if (number % i == 0) {
                 m = m * i;
                 number = number / i;
-                sum1 = sum1 + i;
-                i = 1;
+                j = i;
+                while (j > 0) {
+                    int r2 = j % 10;
+                    j = j / 10;
+                    sum1 = sum1 + r2;
+                }
 
             } else {
                 sum1 = sum1 + 0;
+                i++;
             }
-            i++;
+
         }
         while (temp > 0) {
             r = temp % 10;
@@ -32,10 +40,4 @@ public class Boston {
         }
     }
 
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        boston(number);
-
-    }
 }
