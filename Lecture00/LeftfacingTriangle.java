@@ -21,7 +21,7 @@ public class LeftfacingTriangle {
                 if (j < i) {
                     System.out.print("  ");
                 } else {
-                    System.out.print("* ");
+                    System.out.print(j + " ");
                 }
             }
             System.out.println();
