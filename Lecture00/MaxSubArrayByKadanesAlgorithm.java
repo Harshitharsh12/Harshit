@@ -1,7 +1,7 @@
 public class MaxSubArrayByKadanesAlgorithm {
     public static void main(String[] args) {
         int[] arr = { 1, 4, -7, 45, -90, -6, -440, -67, 400 };
-        // int[] arr = { 1 };
+        // int[] arr = { 5, -3, 5 };
         System.out.println(maxSubArray(arr));
     }
 

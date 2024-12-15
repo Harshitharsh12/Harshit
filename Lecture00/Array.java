@@ -15,5 +15,10 @@ public class Array {
         // System.out.println(arr[4]);
         System.out.println(arr);
         System.out.println(n);
+        System.out.println(arr.length);
+        char[] c = { 'h', 'k' };
+        System.out.println(c); // -> here in the character array it dosen't print the address of the array
+                               // instead of that it prints the all elements of the array.
+        System.out.println(c[0]);
     }
 }

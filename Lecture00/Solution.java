@@ -1,28 +1,32 @@
-class Solution {
-    public static void main(String[] args) {
-        int n = 8;
-        int[] arr = { 2, 2, 2, 3, 3, 3, 3, 3 };
-        System.out.println(majorityElement(arr, n));
-    }
+import java.util.*;
 
-    static int majorityElement(int[] nums, int n) {
-        int c = 0;
-        int N = n / 2;
-        int temp = 0;
-        for (int i = 0; i < nums.length; i++) {
-            for (int element : nums) {
-                if (nums[i] == element) {
-                    c++;
-                }
-            }
-            if (c >= N + 1) {
-                temp = nums[i];
-                break;
-
-            } else {
-                c = 0;
-            }
-        }
-        return temp;
+public class Solution {
+    public static void main(String args[]) {
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int temp = n;
+        // ArrayList<Integer> list = new ArrayList<Integer>(n);
+        // ArrayList<Integer> list2 = new ArrayList<Integer>(n);
+        // ArrayList<Integer> list3 = new ArrayList<Integer>(n);
+        // // sc.useDelimiter("[\\s,]+");
+        // for (int i = 0; i < n; i++) {
+        // list.add(sc.nextInt());
+        // }
+        // for (int i = 0; i < n; i++) {
+        // list2.add(sc.nextInt());
+        // }
+        // for (int i = 0; i < n; i++) {
+        // for (int j = 0; j < temp; j++) {
+        // if (list.get(i) == list2.get(j)) {
+        // list3.add(list2.get(j));
+        // list2.remove(j);
+        // temp--;
+        // break;
+        // }
+        // }
+        // }
+        // System.out.println(list3);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
     }
 }

@@ -7,7 +7,11 @@ public class ArrayListExample {
         Scanner sc = new Scanner(System.in);
         System.out.println(arrList);
         arrList.add(1);
+        arrList2.add(12);
         System.out.println(arrList);
+        System.out.println(arrList2);
+        arrList2 = arrList;
+        System.out.println(arrList2);
         arrList.add(10);
         arrList.add(20);
         arrList.add(30);
@@ -39,10 +43,11 @@ public class ArrayListExample {
         System.out.println();
         // or
         System.out.println(arrList2);
-        System.out.println("the index of 20 in 'arrList' arraylist is: " + arrList.indexOf(20));
-        System.out.println("the arrList ArrayList before addAll  method: " + arrList);
+        System.out.println("the index of 20 in 'arrList' arraylist is: " +
+                arrList.indexOf(20));
+        System.out.println("the arrList ArrayList before addAll method: " + arrList);
         arrList.addAll(arrList2);
-        System.out.println("the arrList ArrayList after addAll  method: " + arrList);
+        System.out.println("the arrList ArrayList after addAll method: " + arrList);
         System.out.println("90 is in the ArrayList: " + arrList.contains(90));
         arrList.remove(0);
         arrList.add(0, 250);
