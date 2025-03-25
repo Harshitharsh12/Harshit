@@ -12,6 +12,7 @@ public class StringBuilder1 {
         System.out.println(sb.capacity());
         System.out.println(sb);
         System.out.println(sb.reverse());
+        // System.out.println(sb.de)
 
     }
 }

@@ -1,8 +1,8 @@
 public class InsertionSorting {
     public static void main(String[] args) {
         // int[] arr = { 3, 2, 1, 8, 7 };
-        // int[] arr = { 1, 2, 3, 4, 5 };
-        int[] arr = { 5, 4, 3, 2, 1 };
+//        int[] arr = { 1, 2, 3, 4, 5 };
+         int[] arr = { 5, 4, 3, 2, 1 };
         sorting(arr);
         for (int e : arr) {
 
@@ -22,5 +22,7 @@ public class InsertionSorting {
                 }
             }
         }
+
+
     }
 }

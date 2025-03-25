@@ -1,6 +1,6 @@
 public class Strings {
     public static void main(String[] args) {
-        String s = "Harshit";
+        String s = "Harshhhhhit";
         String s2 = "Harshit";
         String s3 = new String("Harshit");
         String s4 = new String("Kaira");
@@ -33,5 +33,7 @@ public class Strings {
         System.out.println(s10.concat(s9).concat("10").concat("20"));
         System.out.println(("10").concat("20").concat(s10).concat(s9));
         System.out.println(s.valueOf(false));
+        s = s.replaceFirst("" + 'h', "" + '1');
+        System.out.println(s);
     }
 }
